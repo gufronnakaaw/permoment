@@ -10,12 +10,7 @@ export default function ErrorPage() {
         transform="translate(-50%, -50%)"
         textAlign="center"
       >
-        <Image
-          src="/wlee.gif"
-          height="250px"
-          width="250px"
-          borderRadius="10px"
-        />
+        <Image src="/wlee.gif" height="100%" width="100%" borderRadius="10px" />
         <Text>Ups..</Text>
         <Text>Nothing to see here.</Text>
       </Box>
