@@ -1,6 +1,8 @@
 import { Box, Text, Image } from '@chakra-ui/react';
 
 export default function ErrorPage() {
+  document.title = 'Error Page';
+
   return (
     <Box height="100vh">
       <Box
